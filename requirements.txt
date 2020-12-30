@@ -1,0 +1,12 @@
+tensorflow==1.15.3
+keras==2.3.1
+segyio
+numpy
+scikit-learn
+scikit-image
+matplotlib
+jupyterlab
+jupyter
+notebook
+joblib
+pandas
