@@ -1,3 +1,21 @@
+# Fork of SFD-CNN Repository
+
+## Prerequisites
+
+1. Must have OpenVINO 2021 installed on computer. This includes setting up the model optimizer and the inference engine environment.
+2. Don't forget to run `source /path/to/openvino/bin/setupvars.sh`.
+
+## Setup
+
+1. Create your own python environment and run `pip install -r requirements.txt`
+2. Download the `f3_8bit.segy` data file from [here](https://drive.google.com/uc?id=0B7brcf-eGK8CUUZKLXJURFNYeXM). Might need to rename the downloaded file to `f3_8bit.segy`. Store the file in the `data/` directory. 
+3. Run the `ran_F3DataInfer.ipynb` notebook to see inference on slice of F3 block using Keras MLP model.
+4. Run the `ran_F3DataInferOV.ipynb` notebook to see inference on slice of F3 block using OpenVINO version of MLP model.
+
+_________________________________________
+
+**Original README**
+
 *This page is available as an executable or viewable **Jupyter Notebook**:* 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/augustoicaro/SFD-CNN-TL/master?filepath=classifyAndViewGSB.ipynb)
 [<img src="https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.png?raw=true" alt="NbViwer" width="109"/>](https://nbviewer.jupyter.org/github/augustoicaro/SFD-CNN-TL/blob/master/classifyAndViewGSB.ipynb)
