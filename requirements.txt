@@ -10,3 +10,4 @@ jupyter
 notebook
 joblib
 pandas
+tqdm
